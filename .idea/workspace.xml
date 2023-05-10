@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="80fba534-f031-4a71-80ca-51239707d422" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../bai2/cv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai5-4.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/baitap5-3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <workItem from="1683639316448" duration="203000" />
       <workItem from="1683639560982" duration="2666000" />
       <workItem from="1683680326361" duration="651000" />
-      <workItem from="1683681401545" duration="7422000" />
+      <workItem from="1683681401545" duration="14335000" />
     </task>
     <servers />
   </component>
