@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <title>Form đăng ký học viên</title>
 </head>
-<body>
+<body style="background-color:lightyellow">
 <form>
-  <h1 STYLE="color: blue; background-color: cyan">ĐĂNG KÍ HỌC VIÊN</h1>
+
+  <h1 STYLE="color: blue; background-color:aqua">ĐĂNG KÍ HỌC VIÊN</h1>
+  <table>
+    <tr>
+      <td><label for="name" >Họ và tên</label></td>
+      <td><input type="text" id="name" name="name"></td>
+    </tr>
+    <tr>
+      <td> <label for="date">Ngày sinh</label></td>
+      <td><input type="text" id="date" name="ngaysinh"></td>
+    </tr>
+    <tr>
+      <td><label>Giới tính</label></td>
+      <td>
+        <input type="radio" id="nam" name="gioitinh">
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="gioitinh">
+        <label for="nu">Nữ</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="diachi">Địa chỉ</label></td>
+      <td><textarea id="diachi" width="700" hight="200"></textarea> </td>
+    </tr>
+    <tr>
+      <td><label for="lop">Lớp</label></td>
+      <td>
+        <select name="lop" id="lop">
+        <option value="">-Chọn lớp-</option>
+        <option value="l1">Lớp 1</option>
+        <option value="l2">Lớp 2</option>
+        <option value="l3">Lớp 3</option>
+        <option value="l4">Lớp 4</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="email">Emai</label></td>
+      <td><input type="email" id="email" name="emai"></td>
+    </tr>
+    <tr>
+      <td><label for="dt">Điện thoạt</label></td>
+      <td><input type="text" id="dt" name="dienthoai"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+      </td>
+    </tr>
+  </table>
+
 </form>
 </body>
 </html>
