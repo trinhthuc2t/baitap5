@@ -1,9 +1,12 @@
-tr.a {
-    background-color: lightyellow
+.td1{text-align: right; width: 700px;
 }
-table.b {
-    border-collapse: collapse;
+.th {border: gray solid 1px;
+    width: 150px;
 }
-th, td {border: gray solid 1px;
+table.a {border-collapse: collapse
 }
-th, td {width: 150px}
+.td2 {background-color: yellow
+}
+.td3 {background-color: tomato
+}
+.b {color:blue}
